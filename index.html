@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PR Soluções Inteligentes | Petrus Ribeiro</title>
+  <meta name="description" content="Contratos em geral, trabalhos escolares e organização financeira pessoal. Atendimento via WhatsApp." />
+  <style>
+    :root{--azul:#0b2f6b;--vermelho:#c21f2b;--bg:#f4f6f8;--borda:#e6e6e6;}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:#111}
+    header{background:var(--azul);color:#fff;padding:22px 16px}
+    .wrap{max-width:980px;margin:0 auto}
+    .top{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+    .logo{width:92px;height:92px;background:#fff;border-radius:18px;overflow:hidden;border:1px solid rgba(255,255,255,.3)}
+    .logo img{width:100%;height:100%;object-fit:contain}
+    h1{margin:0;font-size:26px}
+    .sub{margin:6px 0 0;opacity:.92;line-height:1.35}
+    main{padding:18px 16px}
+    .card{background:#fff;border:1px solid var(--borda);border-radius:16px;padding:16px;margin:12px 0}
+    .btn{display:inline-block;text-decoration:none;font-weight:700;border-radius:12px;padding:12px 14px}
+    .btn.red{background:var(--vermelho);color:#fff}
+    .btn.blue{background:var(--azul);color:#fff}
+    .row{display:flex;gap:10px;flex-wrap:wrap}
+    footer{padding:16px;text-align:center;color:#666;font-size:12px}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="wrap top">
+    <div class="logo"><img src="logo-oval.png" alt="PR Soluções Inteligentes"></div>
+    <div>
+      <h1>PR Soluções Inteligentes</h1>
+      <div class="sub">Petrus Ribeiro • Contratos • Trabalhos escolares e acadêmicos • Organização financeira pessoal</div>
+      <div class="sub">Atendimento somente via WhatsApp: (35) 99747-5218</div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="card">
+    <h2 style="margin:0;color:#0b2f6b">Serviços</h2>
+    <p style="margin:10px 0;line-height:1.5">
+      📜 Contratos em geral (aluguel, prestação de serviço, acordos e outros)<br>
+      📄 Documentos (declarações, autorizações, procurações simples)<br>
+      📚 Trabalhos escolares e acadêmicos (apoio, formatação e revisão)<br>
+      📊 Organização financeira pessoal (controle de receitas e despesas)
+    </p>
+    <div class="row">
+      <a class="btn red" href="precos.html">Ver tabela de preços</a>
+      <a class="btn blue" target="_blank"
+         href="https://wa.me/5535997475218?text=Olá,%20vim%20pelo%20site%20da%20PR%20Soluções%20Inteligentes.%20Quero%20um%20orçamento%20para:%20">
+        Pedir orçamento no WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 style="margin:0;color:#0b2f6b">Como funciona</h2>
+    <ol style="margin:10px 0 0;line-height:1.6">
+      <li>Você chama no WhatsApp e explica o que precisa.</li>
+      <li>Eu peço as informações e envio o valor.</li>
+      <li>Faço o documento/apoio e envio para conferência.</li>
+      <li>Após ajustes, entrego em PDF (e se precisar, impresso).</li>
+    </ol>
+  </div>
+</main>
+
+<footer>
+  © <span id="y"></span> PR Soluções Inteligentes • Petrus Ribeiro
+</footer>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
